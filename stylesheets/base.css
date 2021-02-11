@@ -1,0 +1,13 @@
+html {
+    background-color: rgb(210, 200, 221);
+}
+
+header {
+    background-color: #877d72;
+    width: 95%;
+}
+
+header #headshot {
+    width: 100px;
+    height: 100px;
+}
