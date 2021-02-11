@@ -11,22 +11,20 @@
 <body>
     <header>
         <h1>Personal Bio of Alexandré Northouse</h1>
-        <img id="headshot" src="resources/images/It's Me Bich, trapped in a square.jpg" alt="A picture of Alexandré Northouse" align="right"/>
     </header>
 
 
 
     <nav>
-        <h2>Navi</h2>
+        <a href="https://www.google.com">google</a>
+        <a href="https://www.duckduckgo.com">DuckDuckGo</a>
+        <a href="https://www.bing.com">bing</a>
     </nav>
 
 
 
     <main>
         <article>
-            <header>
-
-            </header>
             <section>
 
             </section>
@@ -38,39 +36,40 @@
     <aside>
         <article>
             <header>
-
+                
             </header>
             <section>
                 <form action="submit" method="POST">
                     <fieldset>
-                        <legend>Your Personal Info:</legend>
-                        <label for="name">Name:</label>
-                        <input name="name" type="text">
+                        <legend>Contact Form:</legend>
+                        <div>
+                            <h6>Personal Info:</h6>
+                            <label for="name">Name:</label>
+                            <input name="name" type="text">
+                            <br>
+    
+                            <label for="company_name">Company Name (if applicable):</label>
+                            <input name="company_name" type="text">
+                            <br>
+    
+                            <label for="telephone">Your Preferred Contact Number:</label>
+                            <input name="telephone" type="tel">
+                            <br>
+
+                            <label for="email">Your Email:</label>
+                            <input name="email" type="email">
+                        </div>
                         <br>
 
-                        <label for="company_name">Company Name (if applicable):</label>
-                        <input name="company_name" type="text">
+                        <div>
+                            <h6>Other Details:</h6>
+                            <p>This is if you've got any specific project details, want to include some other details, or anything else you feel I might need to know!</p>
+                            <input name="other_details" type="text">
+                        </div>
                         <br>
-
-                        <label for="telephone">Your Preferred Contact Number:</label>
-                        <input name="telephone" type="tel">
-                        <br>
-
-                        <label for="email">Your Email:</label>
-                        <input name="email" type="email">
-                        <br>
+                        
+                        <input name="submit_contact_info" type="button" value="Submit Form">
                     </fieldset>
-
-                    <fieldset>
-                        <legend>Other Details:</legend>
-                        <p>
-                            This is if you've got any specific project details, want to include some other details, or anything else you feel I might need to know!
-                        </p>
-                        <input name="other_details" type="text">
-                        <br>
-                    </fieldset>
-
-                    <input name="submit_contact_info" type="button">
                 </form>
             </section>
         </article>
