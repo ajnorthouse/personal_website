@@ -5,6 +5,15 @@ html {
 header {
     background-color: #877d72;
     width: 95%;
+    height: 10%;
+}
+
+label {
+    display: block;
+}
+
+header h1 {
+    display: inline;
 }
 
 header #headshot {
