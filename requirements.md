@@ -5,10 +5,10 @@ This is a webpage created to be a personal bio, made during the JUMP program at 
 ## Requirements:
 ##### HTML Requirementts (02/10/2020):
 - Create a simple Personal Bio web page, with a description of your skills as a developer.
-    1. [ ] Use the semantic web layout.
-    1. [ ] Include a picture, a header with a nave bar, articles, and asides.
-    1. [ ] Add a form that interested parties can submit their contact information to.
-    1. [ ] Keep related sections in their own divs.
+    1. [x] Use the semantic web layout.
+    1. [x] Include a picture, a header with a nave bar, articles, and asides.
+    1. [x] Add a form that interested parties can submit their contact information to.
+    1. [x] Keep related sections in their own divs.
 
 ##### CSS Requirements (02/11/2020):
 - Add styles to your Personal Bio page:
